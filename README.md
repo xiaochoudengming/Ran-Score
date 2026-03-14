@@ -7,7 +7,9 @@ Rising workloads and substantial inter-reader variability increasingly complicat
 2.Includes features for resuming from breakpoints and automatic error logging.  
 3.Outputs results in CSV format 
   
+## Framework
 
+![Ran-Score Framework](Framework.png)
 
 #  Getting Started:  
 ## Installation
