@@ -7,7 +7,7 @@ Rising workloads and substantial inter-reader variability increasingly complicat
 2.Includes features for resuming from breakpoints and automatic error logging.  
 3.Outputs results in CSV format 
   
-![image](https://github.com/user-attachments/assets/f5dd976f-f4dc-47d5-9211-b51c3d44ce8a)
+
 
 #  Getting Started:  
 ## Installation
