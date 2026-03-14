@@ -1,4 +1,8 @@
 #  Ran-Score
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18489808.svg)](https://doi.org/10.5281/zenodo.18489808)
+
+This repository contains the RanScore dataset for evaluating radiology report generation.
 __《Ran Score: a LLM-based Evaluation Score for Radiology Report Generation》__  
 # Introduction： 
 Rising workloads and substantial inter-reader variability increasingly complicate manual interpretation of chest X-ray reports. Although large language models have shown promise for report analysis, their clinical reliability remains limited by missed low-prevalence pathologies and misinterpretation of diagnostic language. We introduce a Human–LLM cooperation framework for automated multi-label pathology extraction from free-text chest X-ray reports. The framework uses iterative, clinician-guided prompt refinement. This process is driven by systematic analysis of model failure modes and encodes clinical diagnostic reasoning in a transparent and reproducible manner without model retraining. Evaluated against a reference standard established by majority vote among six thoracic radiologists, the framework achieved radiologist-level performance on a total of 3,000 English reports and demonstrated robust generalization to 150 Chinese reports. Overall performance reached a macro-averaged F1 score of 0.956, with accuracy exceeding 95% for most pathology categories and complete recall of rare findings. This improvement reflects targeted mitigation of class imbalance and negation-related errors rather than reliance on model scaling or memorization. This approach outperformed conventional prompting strategies and existing automated labelers, while maintaining stable performance across languages. By aligning large language models with expert diagnostic reasoning through clinician-in-the-loop refinement, this framework provides a practical pathway to reduce interpretive variability and improve diagnostic reliability. It supports routine chest X-ray interpretation in real-world clinical settings. To promote reproducibility, the entire MIMIC-CXR dataset, along with the complete prompt set and evaluation code, is publicly released upon publication, enabling transparent and extensible evaluation of radiology-oriented language models. 
@@ -8,7 +12,6 @@ Rising workloads and substantial inter-reader variability increasingly complicat
 3.Outputs results in CSV format 
   
 ## Framework
-
 ![Ran-Score Framework](Framework.png)
 
 #  Getting Started:  
